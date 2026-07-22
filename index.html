@@ -1,0 +1,788 @@
+<!doctype html>
+<html lang="fa" dir="rtl">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no,viewport-fit=cover">
+<title>محاسبه اعتبار پاسپورت آنلاین | تاریخ انقضا و قانون ۶ ماهه</title>
+<meta name="description" content="محاسبه آنلاین اعتبار پاسپورت با تاریخ شمسی و میلادی؛ مدت باقی‌مانده را به سال، ماه و روز ببینید و اعتبار حداقل ۶ ماهه برای سفر خارجی را بررسی کنید.">
+<meta name="keywords" content="محاسبه اعتبار پاسپورت, تاریخ انقضای پاسپورت, اعتبار پاسپورت برای سفر, قانون ۶ ماه پاسپورت, تبدیل تاریخ پاسپورت به شمسی">
+<meta name="author" content="FlyYab">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1,max-video-preview:-1">
+<meta name="googlebot" content="index,follow,max-image-preview:large,max-snippet:-1">
+<meta name="theme-color" content="#2B61F0">
+<meta name="color-scheme" content="light">
+<link rel="canonical" href="https://flyyab.ir/tools/passport-expiry-calculator">
+<link rel="icon" type="image/png" href="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize">
+<link rel="apple-touch-icon" href="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize">
+<meta property="og:locale" content="fa_IR">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="FlyYab Tools">
+<meta property="og:title" content="محاسبه اعتبار پاسپورت آنلاین | FlyYab">
+<meta property="og:description" content="تاریخ انقضای پاسپورت، اعتبار باقی‌مانده، تاریخ شمسی و وضعیت حداقل ۶ ماه اعتبار را آنلاین بررسی کنید.">
+<meta property="og:url" content="https://flyyab.ir/tools/passport-expiry-calculator">
+<meta property="og:image" content="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize">
+<meta property="og:image:alt" content="ابزار محاسبه اعتبار پاسپورت فلای‌یاب">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="محاسبه اعتبار پاسپورت آنلاین | FlyYab">
+<meta name="twitter:description" content="اعتبار باقی‌مانده پاسپورت و وضعیت قانون ۶ ماهه سفر را بررسی کنید.">
+<meta name="twitter:image" content="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebApplication",
+      "@id": "https://flyyab.ir/tools/passport-expiry-calculator#app",
+      "name": "محاسبه اعتبار پاسپورت فلای‌یاب",
+      "alternateName": "FlyYab Passport Expiry Calculator",
+      "url": "https://flyyab.ir/tools/passport-expiry-calculator",
+      "applicationCategory": "TravelApplication",
+      "operatingSystem": "Any",
+      "browserRequirements": "Requires JavaScript. Works in modern mobile and desktop browsers.",
+      "isAccessibleForFree": true,
+      "inLanguage": "fa-IR",
+      "description": "ابزار رایگان محاسبه تاریخ انقضا، اعتبار باقی‌مانده و وضعیت حداقل شش ماه اعتبار پاسپورت برای سفر خارجی.",
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://flyyab.ir/#organization",
+        "name": "FlyYab",
+        "url": "https://flyyab.ir/",
+        "logo": {
+          "@type": "ImageObject",
+          "url": "https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize"
+        }
+      },
+      "featureList": [
+        "محاسبه اعتبار باقی‌مانده پاسپورت",
+        "نمایش تاریخ انقضا به شمسی و میلادی",
+        "هشدار اعتبار کمتر از شش ماه",
+        "محاسبه بر اساس تاریخ صدور یا تاریخ انقضا"
+      ]
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://flyyab.ir/tools/passport-expiry-calculator#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "فلای‌یاب",
+          "item": "https://flyyab.ir/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "ابزارهای فلای‌یاب",
+          "item": "https://flyyab.ir/tools/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "محاسبه اعتبار پاسپورت",
+          "item": "https://flyyab.ir/tools/passport-expiry-calculator"
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Estedad:wght@600;700;800;900&family=Vazirmatn:wght@400;500;600;700;800;900&display=swap');
+:root{
+ --fly:#2B61F0;--fly2:#1F50D9;--fly3:#173FB5;--navy:#172F70;
+ --ink:#172033;--muted:#68758A;--line:#E1E8F2;--soft:#F5F8FD;
+ --white:#fff;--green:#149B69;--greenSoft:#EAF8F2;
+ --amber:#B66A00;--amberSoft:#FFF7E8;--red:#B43D48;--redSoft:#FFF1F2;
+ --shadow:0 22px 70px rgba(23,47,112,.14),0 5px 18px rgba(23,47,112,.07);
+ --shadowSm:0 12px 34px rgba(43,97,240,.11);
+}
+*{box-sizing:border-box;-webkit-tap-highlight-color:transparent}
+html{scroll-behavior:smooth;-webkit-text-size-adjust:100%}
+body{
+ margin:0;color:var(--ink);font-family:'Vazirmatn',Tahoma,Arial,sans-serif;line-height:1.8;
+ background:
+ radial-gradient(circle at 50% -10%,rgba(75,123,255,.20),transparent 32%),
+ linear-gradient(180deg,#F8FAFF 0,#EEF3FA 55%,#F7F9FC 100%);
+}
+button,input,select{font:inherit}button{cursor:pointer}a{text-decoration:none;color:inherit}
+svg{display:block}
+:focus-visible{outline:3px solid rgba(43,97,240,.22);outline-offset:3px}
+
+.topbar{
+ position:sticky;top:0;z-index:1300;height:66px;padding:0 12px;
+ display:grid;grid-template-columns:46px minmax(0,1fr) 46px;align-items:center;gap:8px;
+ color:#fff;background:linear-gradient(135deg,var(--fly),#2C63F3 55%,var(--fly2));
+ border-bottom:1px solid rgba(255,255,255,.22);
+ box-shadow:0 12px 30px rgba(43,97,240,.24);
+}
+.headerBtn{
+ width:42px;height:42px;padding:0;border-radius:13px;border:1px solid rgba(255,255,255,.30);
+ color:#fff;background:rgba(255,255,255,.12);display:grid;place-items:center
+}
+.headerBtn:hover{background:rgba(255,255,255,.22)}
+.headerBtn svg{width:21px;height:21px;fill:none;stroke:currentColor;stroke-width:1.9;stroke-linecap:round;stroke-linejoin:round}
+.headerBrand{justify-self:center;display:flex;align-items:center;gap:9px;min-width:0}
+.headerLogo{
+ width:38px;height:38px;border-radius:12px;display:grid;place-items:center;flex:none;
+ background:#fff;color:var(--fly);box-shadow:0 8px 24px rgba(18,46,115,.22);overflow:hidden
+}
+.headerLogo img{width:100%;height:100%;object-fit:cover;display:block}
+.headerLogo svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:1.9}
+.headerTitles{display:flex;flex-direction:column;line-height:1.18;min-width:0}
+.headerTitles strong{font-size:14px;direction:ltr;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.headerTitles small{font-size:9px;color:rgba(255,255,255,.74)}
+.liveBadge{display:inline-flex;align-items:center;gap:5px;margin-right:3px;padding:4px 7px;border:1px solid rgba(255,255,255,.24);border-radius:999px;font-size:9px;color:#fff;background:rgba(255,255,255,.11)}
+.liveBadge i{width:6px;height:6px;border-radius:50%;background:#74F0BC;box-shadow:0 0 0 0 rgba(116,240,188,.5);animation:pulse 1.8s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 7px rgba(116,240,188,0)}100%{box-shadow:0 0 0 0 rgba(116,240,188,0)}}
+
+.backdrop{position:fixed;inset:0;z-index:1490;background:rgba(8,24,52,.40);backdrop-filter:blur(4px);opacity:0;visibility:hidden;transition:.23s}
+.backdrop.open{opacity:1;visibility:visible}
+.drawer{
+ position:fixed;inset:0 auto 0 0;width:min(88vw,390px);z-index:1500;background:#fff;
+ transform:translateX(-105%);transition:.29s cubic-bezier(.2,.8,.2,1);box-shadow:28px 0 80px rgba(15,42,86,.25);
+ display:flex;flex-direction:column
+}
+.drawer.open{transform:none}
+.drawerHead{
+ padding:20px;color:#fff;background:linear-gradient(135deg,var(--fly),var(--fly2));
+ border-radius:0 0 26px 26px;display:flex;justify-content:space-between;align-items:center
+}
+.drawerIdentity{display:flex;align-items:center;gap:11px}
+.drawerIdentity .headerLogo{width:49px;height:49px}
+.drawerIdentity div{display:flex;flex-direction:column}
+.drawerIdentity strong{direction:ltr;font-size:15px}
+.drawerIdentity span{font-size:10px;color:rgba(255,255,255,.76)}
+.drawerClose{width:39px;height:39px;border:1px solid rgba(255,255,255,.28);border-radius:12px;background:rgba(255,255,255,.11);color:#fff;font-size:24px}
+.drawerNav{padding:16px;display:grid;gap:8px}
+.drawerNav a{
+ min-height:65px;padding:11px 13px;border:1px solid var(--line);border-radius:16px;background:#fff;
+ display:grid;grid-template-columns:42px 1fr auto;gap:10px;align-items:center
+}
+.drawerNav a:hover,.drawerNav a.active{background:#EFF4FF;border-color:#BDD1FF;color:var(--fly3)}
+.navIcon{width:42px;height:42px;border-radius:13px;display:grid;place-items:center;background:#F2F5FA;color:var(--fly);font-weight:900}
+.drawerNav a.active .navIcon{color:#fff;background:linear-gradient(135deg,var(--fly),var(--fly2))}
+.drawerNav strong{display:block;font-size:13px}
+.drawerNav small{display:block;color:var(--muted);font-size:9px}
+.drawerNav b{font-size:16px}
+.drawerFoot{margin-top:auto;padding:18px;border-top:1px solid var(--line);text-align:center;color:var(--muted);font-size:10px}
+
+.hero{position:relative;overflow:hidden;padding:50px 16px 112px}
+.hero:before,.hero:after{content:"";position:absolute;border-radius:50%;pointer-events:none}
+.hero:before{width:430px;height:430px;left:-200px;top:-170px;background:rgba(43,97,240,.08)}
+.hero:after{width:300px;height:300px;right:-170px;bottom:-130px;background:rgba(255,184,0,.09)}
+.heroInner{width:min(1180px,100%);margin:auto;display:grid;grid-template-columns:minmax(0,1.1fr) minmax(330px,.9fr);gap:55px;align-items:center}
+.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border:1px solid #D5E1F5;border-radius:999px;background:rgba(255,255,255,.80);color:var(--fly3);font-size:11px;font-weight:900;box-shadow:var(--shadowSm)}
+.eyebrow i{width:8px;height:8px;border-radius:50%;background:var(--fly)}
+.hero h1{margin:18px 0 12px;font-size:clamp(34px,5vw,64px);line-height:1.28;letter-spacing:-1.5px;color:var(--navy)}
+.hero h1 span{display:block;color:var(--fly)}
+.heroLead{max-width:730px;margin:0;color:var(--muted);font-size:clamp(15px,1.8vw,18px)}
+.heroActions{display:flex;gap:10px;flex-wrap:wrap;margin-top:25px}
+.heroBtn{min-height:51px;padding:0 20px;border-radius:14px;font-weight:900;display:inline-flex;align-items:center;gap:8px}
+.heroBtn.primary{border:0;color:#fff;background:linear-gradient(135deg,var(--fly),var(--fly2));box-shadow:0 14px 32px rgba(43,97,240,.25)}
+.heroBtn.ghost{border:1px solid #D3DFEF;color:var(--navy);background:rgba(255,255,255,.82)}
+.heroBtn svg{width:18px;height:18px;fill:none;stroke:currentColor;stroke-width:2}
+
+.passportScene{position:relative;min-height:390px;display:grid;place-items:center;perspective:1000px}
+.route{position:absolute;inset:15px;opacity:.22}
+.route svg{width:100%;height:100%;fill:none;stroke:var(--fly);stroke-width:1.5;stroke-dasharray:7 9}
+.passportVisual{
+ position:relative;width:min(330px,88vw);aspect-ratio:1.42;border-radius:28px;padding:27px;color:#fff;
+ background:
+ repeating-linear-gradient(135deg,rgba(255,255,255,.025) 0 1px,transparent 1px 9px),
+ linear-gradient(145deg,#183A8A,#102C69 65%,#0C2357);
+ box-shadow:0 35px 75px rgba(23,47,112,.32);transform:rotate(-5deg)
+}
+.passportVisual:before{content:"";position:absolute;inset:12px;border:1px solid rgba(255,255,255,.16);border-radius:21px}
+.passportTop{display:flex;justify-content:space-between;align-items:center;font-size:11px;letter-spacing:1.6px;direction:ltr}
+.passportEmblem{width:85px;height:85px;margin:30px auto 16px;border:1px solid rgba(255,255,255,.28);border-radius:50%;display:grid;place-items:center}
+.passportEmblem svg{width:49px;height:49px;fill:none;stroke:#FFCC60;stroke-width:1.4}
+.passportName{text-align:center;direction:ltr;font-weight:900;letter-spacing:4px}
+.passportSub{text-align:center;color:rgba(255,255,255,.62);font-size:10px;direction:ltr;letter-spacing:2px;margin-top:4px}
+.flightTag{position:absolute;right:-24px;bottom:28px;padding:12px 14px;border-radius:16px;background:#fff;color:var(--navy);box-shadow:var(--shadowSm);transform:rotate(5deg)}
+.flightTag small{display:block;color:var(--muted);font-size:9px}
+.flightTag strong{direction:ltr;font-size:15px}
+.calendarTag{position:absolute;left:-20px;top:42px;width:92px;border-radius:18px;overflow:hidden;background:#fff;box-shadow:var(--shadowSm);transform:rotate(4deg)}
+.calendarTag span{display:block;padding:5px;text-align:center;color:#fff;background:var(--fly);font-size:9px}
+.calendarTag strong{display:block;padding:12px 5px;text-align:center;color:var(--navy);font-size:22px}
+
+.toolWrap{width:min(1180px,calc(100% - 24px));margin:-76px auto 50px;position:relative;z-index:3}
+.toolShell{border:1px solid rgba(43,97,240,.14);border-radius:32px;background:rgba(255,255,255,.94);box-shadow:var(--shadow);overflow:hidden;backdrop-filter:blur(20px)}
+.toolTop{padding:18px 20px;border-bottom:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:12px}
+.toolTitle{display:flex;align-items:center;gap:11px}
+.toolMark{width:46px;height:46px;border-radius:15px;display:grid;place-items:center;color:#fff;background:linear-gradient(135deg,var(--fly),var(--fly2));box-shadow:0 10px 25px rgba(43,97,240,.20)}
+.toolMark svg{width:24px;height:24px;fill:none;stroke:currentColor;stroke-width:1.8}
+.toolTitle strong{display:block;font-size:16px;color:var(--navy)}
+.toolTitle small{display:block;color:var(--muted);font-size:10px}
+.secure{display:flex;align-items:center;gap:6px;padding:6px 10px;border-radius:999px;color:var(--green);background:var(--greenSoft);font-size:10px;font-weight:900}
+.secure i{width:7px;height:7px;border-radius:50%;background:var(--green)}
+.toolGrid{display:grid;grid-template-columns:minmax(0,.92fr) minmax(0,1.08fr)}
+.formPanel{padding:28px;border-left:1px solid var(--line)}
+.resultPanel{padding:28px;background:linear-gradient(180deg,#FBFCFF,#F5F8FD)}
+.panelTitle{margin:0 0 4px;color:var(--navy);font-size:21px}
+.panelDesc{margin:0 0 20px;color:var(--muted);font-size:12px}
+
+.modeTabs{display:grid;grid-template-columns:1fr 1fr;gap:8px;padding:6px;border:1px solid #BFD0FA;border-radius:18px;background:#EAF1FF;margin-bottom:22px;box-shadow:inset 0 0 0 1px rgba(43,97,240,.03)}
+.modeTabs button{min-height:52px;border:1px solid transparent;border-radius:13px;color:#5E6F8D;background:transparent;font-weight:900;font-size:13px;transition:.2s}
+.modeTabs button.active{color:#fff;background:linear-gradient(135deg,var(--fly),var(--fly2));border-color:#2B61F0;box-shadow:0 10px 22px rgba(43,97,240,.22)}
+.fieldGroup{margin-bottom:17px}
+.label{display:flex;justify-content:space-between;align-items:center;gap:10px;margin-bottom:8px;font-size:12px;font-weight:900;color:var(--ink)}
+.label small{color:var(--muted);font-size:9px;font-weight:400}
+.dateGrid{direction:ltr;display:grid;grid-template-columns:1.15fr 1fr 1fr;gap:10px;align-items:stretch}
+.field{position:relative;min-width:0}
+.field input,.field select{
+ width:100%;height:68px;padding:25px 12px 7px;border:1.5px solid #BFCDE1;border-radius:17px;
+ color:var(--ink);background:#fff;outline:0;text-align:center;direction:ltr;font-size:18px;font-weight:900;font-variant-numeric:tabular-nums
+}
+.field select{appearance:none;padding-top:22px}
+.field input:focus,.field select:focus{border-color:var(--fly);box-shadow:0 0 0 4px rgba(43,97,240,.10)}
+.field span{position:absolute;top:6px;right:0;left:0;text-align:center;color:#7B899D;font-size:9px;pointer-events:none}
+.yearOptions{display:none;grid-template-columns:1fr 1fr;gap:9px;margin-top:15px}
+.yearOptions.show{display:grid}
+.yearOption{position:relative}
+.yearOption input{position:absolute;opacity:0}
+.yearOption label{min-height:58px;padding:8px 12px;border:1px solid var(--line);border-radius:14px;background:#fff;display:flex;justify-content:space-between;align-items:center;cursor:pointer}
+.yearOption input:checked+label{border-color:#A7C0FF;background:#EFF4FF;color:var(--fly3);box-shadow:0 0 0 3px rgba(43,97,240,.08)}
+.yearOption strong{font-size:13px}.yearOption small{display:block;color:var(--muted);font-size:9px}
+.inputHint{margin:9px 0 0;color:var(--muted);font-size:10px}
+.formActions{display:grid;grid-template-columns:1fr auto;gap:9px;margin-top:21px}
+.mainBtn,.resetBtn{min-height:55px;border-radius:14px;font-weight:900}
+.mainBtn{border:0;color:#fff;background:linear-gradient(135deg,var(--fly),var(--fly2));box-shadow:0 13px 28px rgba(43,97,240,.22)}
+.resetBtn{padding:0 18px;border:1px solid #D4DEEC;color:var(--navy);background:#fff}
+.formError{display:none;margin-top:13px;padding:11px 13px;border:1px solid #F0C3C7;border-radius:12px;color:var(--red);background:var(--redSoft);font-size:11px;font-weight:900}
+
+.emptyState{min-height:490px;display:grid;place-items:center;text-align:center}
+.emptyIcon{width:98px;height:112px;margin:0 auto 18px;border:2px solid #C7D6EB;border-radius:20px 20px 28px 28px;background:linear-gradient(160deg,#fff,#EAF2FF);display:grid;place-items:center;color:var(--fly);box-shadow:var(--shadowSm)}
+.emptyIcon svg{width:48px;height:48px;fill:none;stroke:currentColor;stroke-width:1.5}
+.emptyState h3{margin:0 0 7px;color:var(--navy);font-size:20px}
+.emptyState p{max-width:390px;margin:0;color:var(--muted);font-size:12px}
+
+.resultContent{display:none}
+.resultHead{display:flex;justify-content:space-between;align-items:flex-start;gap:12px;margin-bottom:16px}
+.resultHead small{display:block;color:var(--muted);font-size:9px}
+.resultHead h3{margin:2px 0 0;font-size:22px;color:var(--navy)}
+.statusBadge{padding:7px 11px;border:1px solid #BFE9D9;border-radius:999px;color:var(--green);background:var(--greenSoft);font-size:10px;font-weight:900}
+.statusBadge.warning{border-color:#F2D18F;color:var(--amber);background:var(--amberSoft)}
+.statusBadge.expired{border-color:#EFC3C7;color:var(--red);background:var(--redSoft)}
+.alertBox{display:none;margin-bottom:14px;padding:13px;border:1px solid #F2D18F;border-radius:15px;color:var(--amber);background:var(--amberSoft);font-size:11px;font-weight:900}
+.summaryCard{padding:18px;border:1px solid #D8E3F2;border-radius:20px;background:#fff;box-shadow:var(--shadowSm)}
+.summaryTop{display:flex;align-items:center;gap:10px;margin-bottom:14px}
+.summaryCheck{width:42px;height:42px;border-radius:14px;display:grid;place-items:center;color:#fff;background:var(--green)}
+.summaryCheck.warning{background:#E39A1C}.summaryCheck.expired{background:var(--red)}
+.summaryCheck svg{width:22px;height:22px;fill:none;stroke:currentColor;stroke-width:2.2}
+.summaryTop strong{display:block;color:var(--navy);font-size:14px}
+.summaryTop small{display:block;color:var(--muted);font-size:9px}
+.countdown{display:grid;grid-template-columns:repeat(3,1fr);gap:8px}
+.countBox{padding:15px 6px;border:1px solid var(--line);border-radius:16px;background:#F9FBFE;text-align:center}
+.countBox strong{display:block;color:var(--fly);font-size:29px;line-height:1.2;font-variant-numeric:tabular-nums}
+.countBox span{color:var(--muted);font-size:9px}
+.progressWrap{margin:17px 0 4px}
+.progressMeta{display:flex;justify-content:space-between;color:var(--muted);font-size:9px;margin-bottom:7px}
+.progress{height:10px;border-radius:999px;background:#E8EEF6;overflow:hidden}
+.progress i{display:block;height:100%;width:0;border-radius:inherit;background:linear-gradient(90deg,#78D7B4,var(--green));transition:width .7s}
+.progress i.warning{background:linear-gradient(90deg,#FFD273,#E39A1C)}
+.progress i.expired{background:linear-gradient(90deg,#F29AA1,var(--red))}
+.dateCards{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin-top:13px}
+.dateCard{padding:13px;border:1px solid var(--line);border-radius:15px;background:#fff}
+.dateCard span{display:block;color:var(--muted);font-size:9px}
+.dateCard strong{display:block;margin-top:3px;color:var(--navy);font-size:13px}
+.dateCard .ltr{direction:ltr;text-align:right;font-family:Arial,sans-serif}
+.humanSummary{margin:13px 0 0;padding:13px;border-right:4px solid var(--fly);border-radius:12px;background:#EFF4FF;color:#33435C;font-size:11px;font-weight:700}
+.resultActions{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:13px}
+.resultActions button{min-height:44px;border:1px solid #D6E0ED;border-radius:12px;color:var(--navy);background:#fff;font-size:10px;font-weight:900}
+.resultActions button:hover{background:#EFF4FF;border-color:#BDD1FF}
+.printBrand{display:none}
+
+.features{width:min(1180px,calc(100% - 24px));margin:0 auto 70px;display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.featureCard{padding:19px;border:1px solid var(--line);border-radius:20px;background:rgba(255,255,255,.88);box-shadow:var(--shadowSm)}
+.featureIcon{width:44px;height:44px;border-radius:14px;display:grid;place-items:center;color:var(--fly);background:#EFF4FF}
+.featureIcon svg{width:23px;height:23px;fill:none;stroke:currentColor;stroke-width:1.8}
+.featureCard h3{margin:12px 0 4px;color:var(--navy);font-size:15px}
+.featureCard p{margin:0;color:var(--muted);font-size:10px}
+
+.content{width:min(980px,calc(100% - 28px));margin:0 auto 65px}
+.contentHead{text-align:center;margin-bottom:30px}
+.contentHead span{color:var(--fly);font-size:11px;font-weight:900}
+.contentHead h2{margin:5px 0 8px;color:var(--navy);font-size:clamp(27px,4vw,40px)}
+.contentHead p{max-width:680px;margin:auto;color:var(--muted);font-size:12px}
+.infoGrid{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.infoCard{padding:22px;border:1px solid var(--line);border-radius:22px;background:#fff;box-shadow:var(--shadowSm)}
+.infoCard h3{margin:0 0 7px;color:var(--navy);font-size:17px}
+.infoCard p{margin:0;color:var(--muted);font-size:11px}
+.infoCard.wide{grid-column:1/-1;background:linear-gradient(135deg,#EFF4FF,#fff)}
+.infoSteps{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:15px}
+.infoStep{padding:13px;border:1px solid #DCE6F5;border-radius:15px;background:#fff}
+.infoStep b{display:grid;place-items:center;width:28px;height:28px;border-radius:9px;color:#fff;background:var(--fly);font-size:11px}
+.infoStep strong{display:block;margin-top:8px;font-size:12px;color:var(--navy)}
+.infoStep span{display:block;margin-top:3px;color:var(--muted);font-size:9px}
+
+.faq{width:min(980px,calc(100% - 28px));margin:0 auto 70px}
+.faq h2{text-align:center;color:var(--navy);font-size:29px}
+.faqItem{margin-bottom:9px;border:1px solid var(--line);border-radius:17px;background:#fff;overflow:hidden;box-shadow:0 6px 20px rgba(23,47,112,.045)}
+.faqQ{width:100%;min-height:62px;padding:0 17px;border:0;background:#fff;color:var(--ink);display:flex;justify-content:space-between;align-items:center;text-align:right;font-weight:900;font-size:12px}
+.faqQ b{color:var(--fly);font-size:20px;transition:.2s}
+.faqA{max-height:0;overflow:hidden;transition:max-height .3s ease}
+.faqA p{margin:0;padding:0 17px 17px;color:var(--muted);font-size:11px}
+.faqItem.open .faqA{max-height:220px}
+.faqItem.open .faqQ b{transform:rotate(45deg)}
+
+.toolsMore{width:min(1180px,calc(100% - 24px));margin:0 auto 70px;padding:26px;border-radius:27px;color:#fff;background:linear-gradient(135deg,var(--navy),var(--fly3));box-shadow:var(--shadow);position:relative;overflow:hidden}
+.toolsMore:after{content:"";position:absolute;width:260px;height:260px;border-radius:50%;left:-90px;top:-100px;background:rgba(255,255,255,.07)}
+.toolsMore h2{margin:0 0 6px;font-size:25px}
+.toolsMore p{margin:0 0 18px;color:rgba(255,255,255,.72);font-size:11px}
+.toolLinks{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;position:relative;z-index:1}
+.toolLink{padding:14px;border:1px solid rgba(255,255,255,.19);border-radius:16px;background:rgba(255,255,255,.09);backdrop-filter:blur(10px)}
+.toolLink strong{display:block;font-size:13px}.toolLink small{display:block;color:rgba(255,255,255,.65);font-size:9px;margin-top:3px}
+
+.footer{padding:28px 16px;border-top:1px solid var(--line);background:#fff}
+.footerInner{width:min(1180px,100%);margin:auto;display:flex;justify-content:space-between;align-items:center;gap:20px}
+.footerBrand{display:flex;align-items:center;gap:10px}.footerBrand .headerLogo{box-shadow:none;background:#EFF4FF}
+.footerBrand strong{display:block;color:var(--navy);direction:ltr}.footerBrand small{display:block;color:var(--muted);font-size:9px}
+.footerLinks{display:flex;gap:15px;color:var(--muted);font-size:10px}
+
+.toast{position:fixed;z-index:1800;left:50%;bottom:24px;transform:translateX(-50%) translateY(20px);padding:11px 15px;border-radius:13px;color:#fff;background:linear-gradient(135deg,var(--navy),var(--fly3));box-shadow:var(--shadow);font-size:10px;opacity:0;pointer-events:none;transition:.25s}
+.toast.show{opacity:1;transform:translateX(-50%) translateY(0)}
+
+@media(max-width:900px){
+ .hero{padding-top:34px}.heroInner{grid-template-columns:1fr;gap:20px}.heroCopy{text-align:center}.heroLead{margin:auto}.heroActions{justify-content:center}
+ .passportScene{min-height:330px}.toolGrid{grid-template-columns:1fr}.formPanel{border-left:0;border-bottom:1px solid var(--line)}
+ .features{grid-template-columns:1fr}.emptyState{min-height:350px}
+}
+@media(max-width:620px){
+ .topbar{height:62px}.headerTitles small,.liveBadge{display:none}.headerTitles strong{font-size:15px}
+ .hero{padding:28px 12px 92px}.hero h1{font-size:36px;letter-spacing:-.7px;line-height:1.35}.heroLead{font-size:15px;line-height:2}
+ .passportScene{min-height:285px}.passportVisual{width:270px;padding:22px;border-radius:23px}
+ .passportEmblem{width:70px;height:70px;margin-top:24px}.calendarTag{left:-8px;top:28px}.flightTag{right:-7px;bottom:19px}
+ .toolWrap{width:calc(100% - 12px);margin-top:-60px}.toolShell{border-radius:24px}.toolTop{padding:15px}.toolTitle strong{font-size:17px}.toolTitle small,.secure{display:none}
+ .formPanel,.resultPanel{padding:18px}.panelTitle{font-size:24px;line-height:1.5}.panelDesc{font-size:14px;line-height:2;margin-bottom:22px}
+ .modeTabs{gap:7px;padding:6px}.modeTabs button{font-size:13px;min-height:54px}
+ .liveToday{align-items:flex-start;padding:14px}.liveToday strong{font-size:13px}.liveToday small{font-size:10px}.liveDates b{font-size:11px}
+ .label{font-size:14px}.label small{font-size:10px}.dateGrid{grid-template-columns:1.08fr 1fr 1fr;gap:7px}
+ .field input,.field select{height:68px;font-size:16px;padding-left:5px;padding-right:5px}.field span{font-size:10px}
+ .inputHint{font-size:12px;line-height:1.9}.yearOptions{grid-template-columns:1fr}
+ .yearOption label{min-height:64px}.yearOption strong{font-size:14px}.yearOption small{font-size:10px}
+ .formActions{grid-template-columns:1fr}.mainBtn,.resetBtn{min-height:55px;font-size:14px}
+ .resultHead{align-items:center}.resultHead h3{font-size:24px}.statusBadge{font-size:11px}
+ .countBox{padding:17px 6px}.countBox strong{font-size:30px}.countBox span{font-size:10px}
+ .dateCards{grid-template-columns:1fr}.dateCard span{font-size:10px}.dateCard strong{font-size:15px}
+ .humanSummary{font-size:13px;line-height:2}.resultActions{grid-template-columns:1fr}.resultActions button{font-size:12px;min-height:48px}
+ .features{margin-bottom:56px}.featureCard{padding:22px}.featureCard h3{font-size:19px}.featureCard p{font-size:13px;line-height:2}
+ .content{width:calc(100% - 16px)}.contentHead h2{font-size:31px;line-height:1.5}.contentHead p{font-size:14px;line-height:2}
+ .infoGrid{grid-template-columns:1fr}.infoCard.wide{grid-column:auto}.infoCard{padding:22px}.infoCard h3{font-size:20px}.infoCard p{font-size:14px;line-height:2}
+ .infoSteps{grid-template-columns:1fr}.infoStep{padding:16px}.infoStep strong{font-size:15px}.infoStep span{font-size:12px;line-height:1.9}
+ .faq{width:calc(100% - 16px)}.faq h2{font-size:33px}.faqQ{min-height:70px;font-size:14px;line-height:1.8;padding:0 18px}.faqA p{font-size:13px;line-height:2}
+ .toolLinks{grid-template-columns:1fr}.toolLink strong{font-size:15px}.toolLink small{font-size:11px}
+ .footerInner{flex-direction:column;text-align:center}.footerLinks{flex-wrap:wrap;justify-content:center}
+}
+@media print{
+ body{background:#fff}
+ body>*{display:none!important}
+ .toolWrap{display:block!important;width:100%;margin:0}
+ .toolShell{box-shadow:none;border:0}.toolTop,.formPanel,.emptyState{display:none!important}
+ .toolGrid{display:block}.resultPanel{display:block;background:#fff;padding:0}.resultContent{display:block!important}
+ .resultActions{display:none}.printBrand{display:flex!important;align-items:center;gap:10px;margin-bottom:22px;padding-bottom:14px;border-bottom:1px solid #ddd}
+}
+
+.liveToday{
+ display:flex;align-items:center;justify-content:space-between;gap:14px;
+ margin:0 0 18px;padding:14px 16px;border:1px solid #BFD0FA;border-radius:17px;
+ background:linear-gradient(135deg,#EEF4FF,#FFFFFF);box-shadow:0 8px 24px rgba(43,97,240,.08)
+}
+.liveTodayMain{display:flex;align-items:center;gap:11px}
+.livePulse{
+ width:12px;height:12px;border-radius:50%;background:#1FAF78;
+ box-shadow:0 0 0 0 rgba(31,175,120,.45);animation:pulse 1.8s infinite;flex:none
+}
+.liveToday strong{display:block;color:var(--navy);font-size:14px}
+.liveToday small{display:block;color:var(--muted);font-size:10px}
+.liveDates{text-align:left}
+.liveDates b{display:block;color:var(--fly3);font-size:12px;direction:ltr}
+.liveDates span{display:block;color:var(--muted);font-size:10px}
+
+
+html,body{touch-action:pan-x pan-y;overscroll-behavior-x:none}
+body{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+input,select,textarea{font-size:16px!important}
+.heroCopy{position:relative}
+.hero h1{
+ font-family:'Estedad','Vazirmatn',Tahoma,sans-serif;
+ font-weight:900;letter-spacing:-2.2px;text-wrap:balance
+}
+.hero h1 .heroLineMain{
+ display:inline-block;position:relative;color:var(--navy);
+ text-shadow:0 5px 20px rgba(23,47,112,.08)
+}
+.hero h1 .heroLineMain:after{
+ content:"";position:absolute;right:2%;bottom:-5px;width:56%;height:8px;border-radius:999px;
+ background:linear-gradient(90deg,rgba(43,97,240,0),rgba(43,97,240,.20),rgba(43,97,240,.04));
+ transform:rotate(-1deg)
+}
+.hero h1 .heroLineAccent{
+ display:block;margin-top:5px;
+ background:linear-gradient(135deg,#2B61F0 5%,#1749D2 58%,#0F348F);
+ -webkit-background-clip:text;background-clip:text;color:transparent;
+ text-shadow:none
+}
+.heroKicker{
+ display:block;margin-top:13px;color:#49617E;font-size:12px;font-weight:800;
+ letter-spacing:.2px
+}
+@media(max-width:620px){
+ .hero h1{font-size:38px;letter-spacing:-1.5px;line-height:1.45}
+ .hero h1 .heroLineMain:after{height:6px;bottom:-3px}
+ .heroKicker{font-size:11px;margin-top:10px}
+}
+
+</style>
+</head>
+<body id="top">
+
+<header class="topbar">
+ <button class="headerBtn" id="menuBtn" aria-label="باز کردن منو">
+  <svg viewBox="0 0 24 24"><path d="M4 7h16M4 12h16M4 17h16"/></svg>
+ </button>
+ <a class="headerBrand" href="#top" aria-label="FlyYab Passport Calculator">
+  <span class="headerLogo"><img src="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize" alt="FlyYab" width="128" height="128"></span>
+  <span class="headerTitles"><strong>FlyYab Passport Calculator</strong><small>محاسبه اعتبار پاسپورت</small></span>
+  <span class="liveBadge"><i></i>آماده محاسبه</span>
+ </a>
+ <button class="headerBtn" id="helpBtn" aria-label="راهنمای صفحه">
+  <svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M9.8 9a2.4 2.4 0 1 1 3.4 2.2c-.8.4-1.2.9-1.2 1.8M12 17h.01"/></svg>
+ </button>
+</header>
+
+<div class="backdrop" id="backdrop"></div>
+<aside class="drawer" id="drawer" aria-hidden="true">
+ <div class="drawerHead">
+  <div class="drawerIdentity">
+   <span class="headerLogo"><img src="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize" alt="FlyYab" width="128" height="128"></span>
+   <div><strong>FlyYab Tools</strong><span>مجموعه ابزارهای هوشمند سفر</span></div>
+  </div>
+  <button class="drawerClose" id="drawerClose" aria-label="بستن منو">×</button>
+ </div>
+ <nav class="drawerNav">
+  <a href="https://flyyab.ir/"><span class="navIcon">⌂</span><span><strong>صفحه اصلی FlyYab</strong><small>رزرو بلیط، هتل و خدمات سفر</small></span><b>←</b></a>
+  <a class="active" href="#calculator"><span class="navIcon">P</span><span><strong>محاسبه اعتبار پاسپورت</strong><small>بررسی تاریخ انقضا و اعتبار شش‌ماهه</small></span><b>●</b></a>
+  <a href="/tools/iran-airports"><span class="navIcon">IR</span><span><strong>فرودگاه‌های ایران</strong><small>نقشه و اطلاعات فرودگاه‌های کشور</small></span><b>←</b></a>
+  <a href="/tools/world-airports"><span class="navIcon">W</span><span><strong>فرودگاه‌های جهان</strong><small>جست‌وجو در فرودگاه‌های فعال جهان</small></span><b>←</b></a>
+  <a href="#guide"><span class="navIcon">?</span><span><strong>راهنمای ابزار</strong><small>نحوه استفاده و نکات اعتبار پاسپورت</small></span><b>↓</b></a>
+ </nav>
+ <div class="drawerFoot">FlyYab Tools · ابزارهای هوشمند سفر</div>
+</aside>
+
+<section class="hero">
+ <div class="heroInner">
+  <div class="heroCopy">
+   <span class="eyebrow"><i></i> ابزار هوشمند سفر از فلای‌یاب</span>
+   <h1><span class="heroLineMain">اعتبار پاسپورتت را</span><span class="heroLineAccent">قبل از سفر بررسی کن.</span></h1><span class="heroKicker">محاسبه آنلاین تاریخ انقضا، اعتبار باقی‌مانده و قانون ۶ ماهه سفر</span>
+   <p class="heroLead">تاریخ انقضای پاسپورت را وارد کنید تا مدت اعتبار باقی‌مانده، معادل شمسی و وضعیت حداقل ۶ ماه اعتبار برای سفر خارجی را یکجا ببینید.</p>
+   <div class="heroActions">
+    <a class="heroBtn primary" href="#calculator"><svg viewBox="0 0 24 24"><path d="M12 5v14M5 12h14"/></svg>شروع محاسبه</a>
+    <a class="heroBtn ghost" href="#guide"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8v5M12 17h.01"/></svg>راهنمای استفاده</a>
+   </div>
+  </div>
+  <div class="passportScene" aria-hidden="true">
+   <div class="route"><svg viewBox="0 0 500 360"><path d="M25 280C130 90 278 305 470 58"/><circle cx="25" cy="280" r="6"/><circle cx="470" cy="58" r="6"/></svg></div>
+   <div class="passportVisual">
+    <div class="passportTop"><span>FLYYAB TRAVEL DOCUMENT</span><span>FY</span></div>
+    <div class="passportEmblem"><svg viewBox="0 0 64 64"><circle cx="32" cy="32" r="22"/><path d="M11 32h42M32 10c8 8 8 36 0 44M32 10c-8 8-8 36 0 44M17 20c10 7 20 7 30 0M17 44c10-7 20-7 30 0"/></svg></div>
+    <div class="passportName">PASSPORT</div><div class="passportSub">TRAVEL SMARTER</div>
+   </div>
+   <div class="calendarTag"><span>VALID UNTIL</span><strong>6+</strong></div>
+   <div class="flightTag"><small>Passport status</small><strong>READY TO FLY</strong></div>
+  </div>
+ </div>
+</section>
+
+<main id="main-content">
+<section class="toolWrap" id="calculator" aria-labelledby="calculator-title">
+ <div class="toolShell">
+  <div class="toolTop">
+   <div class="toolTitle">
+    <span class="toolMark"><svg viewBox="0 0 24 24"><rect x="4" y="3" width="16" height="18" rx="3"/><path d="M8 8h8M8 12h8M8 16h5"/></svg></span>
+    <span><strong>محاسبه اعتبار پاسپورت</strong><small>Passport Expiry Calculator</small></span>
+   </div>
+   <span class="secure"><i></i>بدون ذخیره اطلاعات</span>
+  </div>
+
+  <div class="toolGrid">
+   <section class="formPanel">
+    <h2 class="panelTitle" id="calculator-title">اطلاعات پاسپورت</h2>
+    <p class="panelDesc">روش محاسبه را انتخاب و تاریخ را دقیقاً مطابق صفحه مشخصات پاسپورت وارد کنید.</p>
+
+    <div class="modeTabs">
+     <button class="active" type="button" data-mode="expiry">تاریخ انقضا را دارم</button>
+     <button type="button" data-mode="issue">تاریخ صدور را دارم</button>
+    </div>
+
+    <div class="liveToday">
+     <div class="liveTodayMain"><i class="livePulse"></i><span><strong>تاریخ امروز، زنده و به‌روز</strong><small>این تاریخ هنگام باز شدن صفحه محاسبه می‌شود</small></span></div>
+     <div class="liveDates"><b id="liveGregorian">—</b><span id="liveJalali">—</span></div>
+    </div>
+
+    <div class="fieldGroup">
+     <div class="label"><span id="dateLabel">تاریخ انقضای پاسپورت</span><small id="dateRangeLabel">میلادی · انتخاب روز، ماه و سال</small></div>
+     <div class="dateGrid">
+      <label class="field"><select id="year" aria-label="سال"></select><span>سال</span></label>
+      <label class="field"><select id="month" aria-label="ماه"></select><span>ماه</span></label>
+      <label class="field"><select id="day" aria-label="روز"></select><span>روز</span></label>
+     </div>
+     <p class="inputHint" id="inputHint">تاریخ انقضا معمولاً در بخش Date of Expiry درج شده است.</p>
+    </div>
+
+    <div class="yearOptions" id="yearOptions">
+     <div class="yearOption"><input type="radio" name="validity" id="five" value="5" checked><label for="five"><span><strong>پاسپورت ۵ ساله</strong><small>اعتبار رایج گذرنامه</small></span><b>۵</b></label></div>
+     <div class="yearOption"><input type="radio" name="validity" id="ten" value="10"><label for="ten"><span><strong>پاسپورت ۱۰ ساله</strong><small>برای گذرنامه‌های ده‌ساله</small></span><b>۱۰</b></label></div>
+    </div>
+
+    <div class="formActions">
+     <button class="mainBtn" id="calculateBtn" type="button">محاسبه اعتبار پاسپورت</button>
+     <button class="resetBtn" id="resetBtn" type="button">پاک کردن</button>
+    </div>
+    <div class="formError" id="formError"></div>
+   </section>
+
+   <section class="resultPanel">
+    <div class="emptyState" id="emptyState">
+     <div>
+      <div class="emptyIcon"><svg viewBox="0 0 64 64"><rect x="14" y="7" width="36" height="50" rx="7"/><circle cx="32" cy="27" r="10"/><path d="M22 27h20M32 17c4 4 4 16 0 20M32 17c-4 4-4 16 0 20M23 45h18"/></svg></div>
+      <h3>نتیجه محاسبه اینجا نمایش داده می‌شود</h3>
+      <p>پس از وارد کردن تاریخ، اعتبار باقی‌مانده و وضعیت مناسب بودن پاسپورت برای سفر خارجی بررسی می‌شود.</p>
+     </div>
+    </div>
+
+    <div class="resultContent" id="resultContent">
+     <div class="printBrand"><span class="headerLogo"><img src="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize" alt="FlyYab" width="128" height="128"></span><strong>FlyYab Passport Calculator</strong></div>
+     <div class="resultHead">
+      <div><small>نتیجه بررسی پاسپورت</small><h3 id="resultTitle">پاسپورت معتبر است</h3></div>
+      <span class="statusBadge" id="statusBadge">معتبر</span>
+     </div>
+     <div class="alertBox" id="alertBox"></div>
+     <div class="summaryCard">
+      <div class="summaryTop">
+       <span class="summaryCheck" id="summaryCheck"><svg viewBox="0 0 24 24"><path d="m5 12 4 4L19 6"/></svg></span>
+       <span><strong id="summaryTitle">برای سفر آماده است</strong><small id="summarySub">اعتبار پاسپورت بررسی شد</small></span>
+      </div>
+      <div class="countdown">
+       <div class="countBox"><strong id="yearsLeft">۰</strong><span>سال</span></div>
+       <div class="countBox"><strong id="monthsLeft">۰</strong><span>ماه</span></div>
+       <div class="countBox"><strong id="daysLeft">۰</strong><span>روز</span></div>
+      </div>
+      <div class="progressWrap">
+       <div class="progressMeta"><span>امروز</span><span id="progressText">اعتبار باقی‌مانده</span></div>
+       <div class="progress"><i id="progressBar"></i></div>
+      </div>
+      <div class="dateCards">
+       <div class="dateCard"><span>تاریخ انقضا میلادی</span><strong class="ltr" id="gregorianDate">—</strong></div>
+       <div class="dateCard"><span>تاریخ انقضا شمسی</span><strong id="jalaliDate">—</strong></div>
+       <div class="dateCard"><span>تاریخ امروز</span><strong class="ltr" id="todayDate">—</strong></div>
+       <div class="dateCard"><span>اعتبار حداقل ۶ ماه</span><strong id="sixMonthStatus">—</strong></div>
+      </div>
+      <p class="humanSummary" id="humanSummary"></p>
+     </div>
+     <div class="resultActions">
+      <button type="button" id="copyBtn">کپی نتیجه</button>
+      <button type="button" id="printBtn">چاپ نتیجه</button>
+      <button type="button" id="newBtn">محاسبه جدید</button>
+     </div>
+    </div>
+   </section>
+  </div>
+ </div>
+</section>
+
+<section class="features">
+ <article class="featureCard"><span class="featureIcon"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></span><h3>محاسبه دقیق و سریع</h3><p>مدت اعتبار باقی‌مانده به‌صورت سال، ماه و روز و بر اساس تاریخ امروز محاسبه می‌شود.</p></article>
+ <article class="featureCard"><span class="featureIcon"><svg viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M8 3v4M16 3v4M4 10h16"/></svg></span><h3>نمایش شمسی و میلادی</h3><p>تاریخ انقضای پاسپورت را به هر دو قالب میلادی و شمسی مشاهده کنید.</p></article>
+ <article class="featureCard"><span class="featureIcon"><svg viewBox="0 0 24 24"><path d="M12 3 3 20h18zM12 9v5M12 17h.01"/></svg></span><h3>هشدار اعتبار کمتر از ۶ ماه</h3><p>اگر اعتبار باقی‌مانده کمتر از شش ماه باشد، ابزار هشدار واضح و قابل‌فهم نمایش می‌دهد.</p></article>
+</section>
+
+<section class="content" id="guide">
+ <div class="contentHead"><span>راهنمای اعتبار گذرنامه</span><h2>قبل از خرید بلیط، تاریخ پاسپورت را بررسی کنید</h2><p>مقررات ورود کشورها و حتی ایرلاین‌ها یکسان نیست. بررسی زودهنگام تاریخ انقضا می‌تواند از ایجاد مشکل در فرودگاه جلوگیری کند.</p></div>
+ <div class="infoGrid">
+  <article class="infoCard"><h3>قانون ۶ ماه اعتبار چیست؟</h3><p>بسیاری از مقصدها از مسافر می‌خواهند پاسپورت او از زمان ورود یا پایان سفر، حداقل چند ماه اعتبار داشته باشد. این بازه بسته به کشور، نوع ویزا و مقررات سفر متفاوت است.</p></article>
+  <article class="infoCard"><h3>کمتر از ۶ ماه اعتبار دارید؟</h3><p>نتیجه ابزار به معنی تضمین ورود نیست. پیش از سفر، شرایط رسمی مقصد، ویزا، ایرلاین و کشور ترانزیت را بررسی کنید و در صورت نیاز برای تمدید پاسپورت اقدام کنید.</p></article>
+  <article class="infoCard wide">
+   <h3>استفاده از ابزار در سه مرحله</h3>
+   <div class="infoSteps">
+    <div class="infoStep"><b>۱</b><strong>انتخاب روش محاسبه</strong><span>تاریخ انقضا یا تاریخ صدور را انتخاب کنید.</span></div>
+    <div class="infoStep"><b>۲</b><strong>وارد کردن تاریخ</strong><span>تاریخ را دقیقاً مطابق پاسپورت وارد کنید.</span></div>
+    <div class="infoStep"><b>۳</b><strong>بررسی نتیجه</strong><span>اعتبار باقی‌مانده و هشدار ۶ ماهه را ببینید.</span></div>
+   </div>
+  </article>
+ </div>
+</section>
+
+<section class="faq">
+ <h2>سؤالات متداول</h2>
+ <div class="faqItem"><button class="faqQ" type="button">پاسپورت برای سفر خارجی باید چند ماه اعتبار داشته باشد؟<b>+</b></button><div class="faqA"><p>این موضوع به مقصد، ویزا، زمان خروج و مقررات کشور ترانزیت بستگی دارد. شش ماه یک معیار رایج و احتیاطی است، اما باید شرایط رسمی مسیر سفر خود را جداگانه بررسی کنید.</p></div></div>
+ <div class="faqItem"><button class="faqQ" type="button">آیا نتیجه این ابزار برای ورود به کشور مقصد قطعی است؟<b>+</b></button><div class="faqA"><p>خیر. این ابزار فقط اختلاف تاریخ را محاسبه می‌کند. تصمیم نهایی بر اساس مقررات کشور مقصد، ویزا، ایرلاین و مأموران مرزی انجام می‌شود.</p></div></div>
+ <div class="faqItem"><button class="faqQ" type="button">تاریخ انقضا را از کجای پاسپورت پیدا کنم؟<b>+</b></button><div class="faqA"><p>در صفحه مشخصات پاسپورت، مقابل عبارت Date of Expiry یا Expiry Date درج شده است. تاریخ را با همان ترتیب روز، ماه و سال وارد کنید.</p></div></div>
+ <div class="faqItem"><button class="faqQ" type="button">اطلاعات پاسپورت من ذخیره می‌شود؟<b>+</b></button><div class="faqA"><p>خیر. محاسبه داخل مرورگر شما انجام می‌شود و در این فایل هیچ اطلاعاتی برای سرور ارسال یا ذخیره نمی‌شود.</p></div></div>
+</section>
+
+<section class="toolsMore">
+ <h2>ابزارهای بیشتر FlyYab</h2>
+ <p>برای برنامه‌ریزی بهتر سفر، از دیگر ابزارهای مستقل فلای‌یاب استفاده کنید.</p>
+ <div class="toolLinks">
+  <a class="toolLink" href="/tools/iran-airports"><strong>فرودگاه‌های ایران</strong><small>نقشه و اطلاعات کاربردی فرودگاه‌های کشور</small></a>
+  <a class="toolLink" href="/tools/world-airports"><strong>فرودگاه‌های جهان</strong><small>جست‌وجوی فرودگاه‌ها، کدها و موقعیت‌ها</small></a>
+  <a class="toolLink" href="https://flyyab.ir/flights"><strong>جست‌وجوی پرواز</strong><small>مقایسه و خرید بلیط هواپیما در فلای‌یاب</small></a>
+ </div>
+</section>
+</main>
+
+<footer class="footer">
+ <div class="footerInner">
+  <div class="footerBrand"><span class="headerLogo"><img src="https://s.cafebazaar.ir/images/icons/ir.charter.flyyab-b9367798-7f13-4a7c-a5d5-9c494c232f18_512x512.png?x-img=v1/format,type_webp,lossless_false/resize,h_128,w_128,lossless_false/optimize" alt="FlyYab" width="128" height="128"></span><span><strong>FlyYab Tools</strong><small>لمس کن، آسمان و زمین از آن توست</small></span></div>
+  <div class="footerLinks"><a href="https://flyyab.ir/">فلای‌یاب</a><a href="https://flyyab.ir/about-us">درباره ما</a><a href="https://flyyab.ir/blog">مجله سفر</a></div>
+ </div>
+</footer>
+<div class="toast" id="toast"></div>
+
+
+<script>
+document.addEventListener('gesturestart',function(e){e.preventDefault()},{passive:false});
+document.addEventListener('gesturechange',function(e){e.preventDefault()},{passive:false});
+document.addEventListener('gestureend',function(e){e.preventDefault()},{passive:false});
+let lastTouchEnd=0;
+document.addEventListener('touchend',function(e){
+ const now=Date.now();
+ if(now-lastTouchEnd<=300)e.preventDefault();
+ lastTouchEnd=now;
+},{passive:false});
+document.addEventListener('wheel',function(e){
+ if(e.ctrlKey)e.preventDefault();
+},{passive:false});
+</script>
+
+<script>
+(function(){
+ const $=s=>document.querySelector(s), $$=s=>document.querySelectorAll(s);
+ const fa=n=>new Intl.NumberFormat('fa-IR',{useGrouping:false}).format(n);
+ const monthsEn=['January','February','March','April','May','June','July','August','September','October','November','December'];
+ const monthsFa=['فروردین','اردیبهشت','خرداد','تیر','مرداد','شهریور','مهر','آبان','آذر','دی','بهمن','اسفند'];
+ let mode='expiry', lastSummary='';
+
+ const drawer=$('#drawer'),backdrop=$('#backdrop');
+ function openDrawer(){drawer.classList.add('open');backdrop.classList.add('open');drawer.setAttribute('aria-hidden','false')}
+ function closeDrawer(){drawer.classList.remove('open');backdrop.classList.remove('open');drawer.setAttribute('aria-hidden','true')}
+ $('#menuBtn').onclick=openDrawer;$('#drawerClose').onclick=closeDrawer;backdrop.onclick=closeDrawer;
+ $$('.drawerNav a').forEach(a=>a.addEventListener('click',closeDrawer));
+ $('#helpBtn').onclick=()=>document.querySelector('#guide').scrollIntoView({behavior:'smooth'});
+
+ const month=$('#month'),day=$('#day'),year=$('#year');
+ monthsEn.forEach((m,i)=>month.add(new Option(String(i+1).padStart(2,'0')+' · '+m,i+1)));
+
+ function fillYears(){
+  year.innerHTML='';
+  if(mode==='expiry'){
+   for(let y=2026;y<=2037;y++) year.add(new Option(String(y),y));
+   year.value='2026';
+   $('#dateRangeLabel').textContent='میلادی · سال‌های ۲۰۲۶ تا ۲۰۳۷';
+  }else{
+   for(let y=2026;y>=2016;y--) year.add(new Option(String(y),y));
+   year.value='2026';
+   $('#dateRangeLabel').textContent='میلادی · سال‌های ۲۰۱۶ تا ۲۰۲۶';
+  }
+ }
+
+ function fillDays(){
+  const y=Number(year.value)||2026,m=Number(month.value)||1,old=Number(day.value)||1;
+  const max=new Date(y,m,0).getDate();day.innerHTML='';
+  for(let i=1;i<=max;i++)day.add(new Option(String(i).padStart(2,'0'),i));
+  day.value=Math.min(old,max)
+ }
+
+ fillYears();fillDays();month.onchange=fillDays;year.onchange=fillDays;
+
+ $$('.modeTabs button').forEach(btn=>btn.onclick=()=>{
+  $$('.modeTabs button').forEach(b=>b.classList.remove('active'));btn.classList.add('active');mode=btn.dataset.mode;
+  const issue=mode==='issue';$('#yearOptions').classList.toggle('show',issue);
+  $('#dateLabel').textContent=issue?'تاریخ صدور پاسپورت':'تاریخ انقضای پاسپورت';
+  $('#inputHint').textContent=issue?'تاریخ صدور معمولاً در بخش Date of Issue درج شده است.':'تاریخ انقضا معمولاً در بخش Date of Expiry درج شده است.';
+  fillYears();fillDays();clearResult(false)
+ });
+
+ function validDate(y,m,d){const x=new Date(y,m-1,d);return x.getFullYear()===y&&x.getMonth()===m-1&&x.getDate()===d}
+ function addYearsSafe(date,years){const d=new Date(date);const m=d.getMonth();d.setFullYear(d.getFullYear()+years);if(d.getMonth()!==m)d.setDate(0);return d}
+ function diffYMD(from,to){
+  if(to<from)return {years:0,months:0,days:0,expired:true};
+  let y=to.getFullYear()-from.getFullYear(),m=to.getMonth()-from.getMonth(),d=to.getDate()-from.getDate();
+  if(d<0){m--;const prevMonth=new Date(to.getFullYear(),to.getMonth(),0);d+=prevMonth.getDate()}
+  if(m<0){y--;m+=12}
+  return {years:y,months:m,days:d,expired:false}
+ }
+ function formatG(d){return String(d.getDate()).padStart(2,'0')+' / '+String(d.getMonth()+1).padStart(2,'0')+' / '+d.getFullYear()}
+ function gregorianToJalali(gy,gm,gd){
+  const gdm=[0,31,59,90,120,151,181,212,243,273,304,334];
+  let jy=(gy<=1600)?0:979; gy-=(gy<=1600)?621:1600;
+  const gy2=(gm>2)?gy+1:gy;
+  let days=365*gy+Math.floor((gy2+3)/4)-Math.floor((gy2+99)/100)+Math.floor((gy2+399)/400)-80+gd+gdm[gm-1];
+  jy+=33*Math.floor(days/12053);days%=12053;jy+=4*Math.floor(days/1461);days%=1461;
+  if(days>365){jy+=Math.floor((days-1)/365);days=(days-1)%365}
+  const jm=days<186?1+Math.floor(days/31):7+Math.floor((days-186)/30);
+  const jd=1+(days<186?days%31:(days-186)%30);
+  return [jy,jm,jd]
+ }
+
+ function updateLiveToday(){
+  const now=new Date();
+  $('#liveGregorian').textContent=formatG(now);
+  const j=gregorianToJalali(now.getFullYear(),now.getMonth()+1,now.getDate());
+  $('#liveJalali').textContent=fa(j[2])+' '+monthsFa[j[1]-1]+' '+fa(j[0]);
+ }
+
+ function showToast(t){const el=$('#toast');el.textContent=t;el.classList.add('show');clearTimeout(el._t);el._t=setTimeout(()=>el.classList.remove('show'),2200)}
+ function clearResult(clearInputs=true){
+  $('#resultContent').style.display='none';$('#emptyState').style.display='grid';$('#formError').style.display='none';
+  if(clearInputs){fillYears();month.value='1';day.value='1';fillDays()}
+ }
+ function setState(type){
+  const badge=$('#statusBadge'),check=$('#summaryCheck'),bar=$('#progressBar');
+  badge.className='statusBadge'+(type==='warning'?' warning':type==='expired'?' expired':'');
+  check.className='summaryCheck'+(type==='warning'?' warning':type==='expired'?' expired':'');
+  bar.className=type==='warning'?'warning':type==='expired'?'expired':''
+ }
+
+ $('#calculateBtn').onclick=()=>{
+  const y=Number(year.value),m=Number(month.value),d=Number(day.value),error=$('#formError');
+  const validYear = mode==='expiry' ? (y>=2026 && y<=2037) : (y>=2016 && y<=2026);
+  if(!validYear||!validDate(y,m,d)){error.textContent='لطفاً یک تاریخ میلادی معتبر از فهرست انتخاب کنید.';error.style.display='block';return}
+  error.style.display='none';
+  const inputDate=new Date(y,m-1,d,12),expiry=mode==='issue'?addYearsSafe(inputDate,Number(document.querySelector('input[name="validity"]:checked').value)):inputDate;
+  const now=new Date();now.setHours(12,0,0,0);
+  const remaining=diffYMD(now,expiry),msDay=86400000,totalDays=Math.ceil((expiry-now)/msDay),sixMonths=new Date(now);sixMonths.setMonth(sixMonths.getMonth()+6);
+  let type='valid',title='پاسپورت معتبر است',badge='معتبر',summaryTitle='اعتبار پاسپورت مناسب است',summarySub='بیش از ۶ ماه تا انقضا باقی مانده است',alert='';
+  if(expiry<now){type='expired';title='پاسپورت منقضی شده است';badge='منقضی شده';summaryTitle='پاسپورت نیاز به تمدید دارد';summarySub='تاریخ اعتبار پاسپورت گذشته است';alert='این پاسپورت منقضی شده و برای سفر خارجی معتبر نیست.'}
+  else if(expiry<sixMonths){type='warning';title='اعتبار کمتر از ۶ ماه است';badge='نیازمند بررسی';summaryTitle='پیش از سفر شرایط مقصد را بررسی کنید';summarySub='کمتر از شش ماه تا انقضا باقی مانده است';alert='اعتبار پاسپورت کمتر از ۶ ماه است. مقررات مقصد، ویزا، ایرلاین و کشور ترانزیت را پیش از سفر بررسی کنید.'}
+  setState(type);
+  $('#resultTitle').textContent=title;$('#statusBadge').textContent=badge;$('#summaryTitle').textContent=summaryTitle;$('#summarySub').textContent=summarySub;
+  $('#alertBox').textContent=alert;$('#alertBox').style.display=alert?'block':'none';
+  $('#yearsLeft').textContent=fa(remaining.years);$('#monthsLeft').textContent=fa(remaining.months);$('#daysLeft').textContent=fa(remaining.days);
+  $('#gregorianDate').textContent=formatG(expiry);
+  const j=gregorianToJalali(expiry.getFullYear(),expiry.getMonth()+1,expiry.getDate());
+  $('#jalaliDate').textContent=fa(j[2])+' '+monthsFa[j[1]-1]+' '+fa(j[0]);
+  $('#todayDate').textContent=formatG(now);$('#sixMonthStatus').textContent=type==='valid'?'دارد':type==='warning'?'کمتر از ۶ ماه':'ندارد';
+  let pct=type==='expired'?0:Math.max(4,Math.min(100,(totalDays/3650)*100));$('#progressBar').style.width=pct+'%';
+  $('#progressText').textContent=type==='expired'?'اعتبار پایان یافته':type==='warning'?'کمتر از ۶ ماه اعتبار':'اعتبار باقی‌مانده';
+  let human=type==='expired'
+   ?`کاربر گرامی فلای‌یاب، اعتبار پاسپورت شما در تاریخ ${formatG(expiry)} به پایان رسیده است.`
+   :`کاربر گرامی فلای‌یاب، پاسپورت شما تا تاریخ ${formatG(expiry)} معتبر است و از امروز ${remaining.years} سال، ${remaining.months} ماه و ${remaining.days} روز تا پایان اعتبار آن باقی مانده است.`;
+  $('#humanSummary').textContent=human;lastSummary=human;
+  $('#emptyState').style.display='none';$('#resultContent').style.display='block';
+  if(innerWidth<900)$('#resultContent').scrollIntoView({behavior:'smooth',block:'center'})
+ };
+
+ $('#resetBtn').onclick=()=>clearResult(true);
+ $('#newBtn').onclick=()=>{clearResult(true);$('#calculator').scrollIntoView({behavior:'smooth'})};
+ $('#printBtn').onclick=()=>window.print();
+ $('#copyBtn').onclick=async()=>{try{await navigator.clipboard.writeText(lastSummary);showToast('نتیجه کپی شد')}catch(e){showToast('امکان کپی خودکار وجود ندارد')}};
+ $$('.faqQ').forEach(q=>q.onclick=()=>q.parentElement.classList.toggle('open'));
+ updateLiveToday();
+ clearResult(false)
+})();
+</script>
+</body>
+</html>
